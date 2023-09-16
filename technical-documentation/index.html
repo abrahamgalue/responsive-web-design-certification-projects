@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>Enlaces o Hipervinculos</header>
+    <ul>
+      <li>
+        <a href="#Introduccion" class="nav-link">Introduccion</a>
+      </li>
+      <li>
+        <a href="#Agrupaciones" class="nav-link">Agrupaciones</a>
+      </li>
+      <li>
+        <a href="#Listas" class="nav-link">Listas</a>
+      </li>
+      <li>
+        <a href="#Listas_de_descripciones" class="nav-link">Listas de descripciones</a>
+      </li>
+      <li>
+        <a href="#Ilustraciones" class="nav-link">Ilustraciones (figuras)</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduccion">
+      <header>Introduccion</header>
+      <ul class="hidden" hidden>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p>
+        Habíamos comentado que existían dos tipos de <strong>etiquetas HTML</strong>: las etiquetas que
+        contienen
+        fragmentos de texto ( <em>se
+          utilizan para dar significado a esas palabras o fragmentos</em> ) y las etiquetas que agrupan
+        conjunto de
+        información
+        ( <em>fragmentos de texto y/u otras etiquetas</em> ).
+      </p>
+      <p>
+        En esta ocasión, vamos a ver el <strong>segundo grupo</strong>, que son las etiquetas que se utilizan
+        para
+        agrupar y organizar
+        información ( <em>y otras etiquetas</em> ). Veamos un ejemplo:
+      </p>
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">&lt;</span>div<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">&lt;</span>p<span class="token punctuation">&gt;</span><span class="token punctuation"><span class="token text">Hola, esto es un primer párrafo de ejemplo.</span></span><span class="token punctuation">&lt;</span>/p<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>p<span class="token punctuation">&gt;</span><span class="token text">Y esto, es un segundo párrafo de ejemplo.</span><span class="token punctuation">&lt;</span>/p<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">&lt;</span>/div<span class="token punctuation">&gt;</span>
+          </span>
+        </div>
+        </code>
+    </section>
+    <section class="main-section" id="Agrupaciones">
+      <header>Agrupaciones</header>
+      <p>
+        Las siguientes etiquetas se utilizan para agrupar información, como es el caso de las etiquetas
+        <code>&lt;</code><code>div></code> o <code>&lt;</code><code>p></code>
+        que vimos en
+        el ejemplo mostrado anteriormente:
+      </p>
+      <table>
+        <caption>Agrupaciones</caption>
+        <thead>
+          <tr>
+            <th>
+              Etiqueta
+            </th>
+            <th>
+              Atributos
+            </th>
+            <th>
+              Descripcion
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>&lt;</code><code>div></code>
+            </td>
+            <td></td>
+            <td>
+              Capa o división utilizado para agrupar varias etiquetas HTML
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>p></code>
+            </td>
+            <td></td>
+            <td>
+              Define un párrafo de texto ( <u><em>con sus etiquetas HTML para texto</em></u> ).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>pre></code>
+            </td>
+            <td></td>
+            <td>
+              Establece un texto preformateado ( <u><em>respetando espacios y saltos de línea</em></u> ).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>blockquote></code>
+            </td>
+            <td><code>cite</code></td>
+            <td>
+              Agrupa información y características de una cita ( <u><em>autor, fuente, etc...</em></u>
+              ).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>main></code>
+            </td>
+            <td></td>
+            <td>
+              Contenedor para englobar la parte principal de la página.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>hr></code>
+            </td>
+            <td></td>
+            <td>
+              Indica una separación temática del texto.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        La etiqueta <code>&lt;</code><code>pre></code> se utiliza para mostrar texto respetando el formato con el
+        que está
+        escrito ( <em>espacios en blanco, saltos de línea, etc...</em> ). También es muy habitual utilizarlo
+        junto a la
+        etiqueta
+        <code>&lt;</code><code>code></code> anidada en su interior, de forma que tenemos un bloque de código
+        preformateado:
+      </p>
+
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">&lt;</span>pre<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">&lt;</span>code <span class="token attr-name">class</span>="<span class="token attr-value">language-html</span>"<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="space x2"><span class="token text">function mensaje(s) {</span></span>
+              <br>
+              <span class="space x3"><span class="token text">console.log(s);</span></span>
+              <br>
+              <span class="space x2"><span class="token text">}</span></span>
+              <br>
+              <span class="token punctuation">&lt;</span>/code<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">
+            <</span>/pre<span class="token punctuation">&gt;</span> 
+            </span>
+        </div>
+      </code>
+      <p>
+        Como se puede ver, en el caso de crear bloques de código, suele ser una buena práctica incluir un
+        atributo
+        <strong>class</strong>
+        con el
+        lenguaje que estamos utilizando. Esto no es una funcionalidad nativa de HTML5, pero muchas librerías de
+        Javascript nos
+        permiten resaltar la sintaxis dependiendo del lenguaje de programación indicado ( <em>ya que varía de
+          uno a
+          otro</em> ).
+      </p>
+      <p>
+        Por otro lado, la etiqueta <code>&lt;</code><code>blockquote></code> suele utilizarse para agrupar
+        información
+        referida a una cita o frase:
+      </p>
+
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+          <span class="token punctuation">&lt;</span>blockquote <span class="token attr-name">cite</span>="<span class="token attr-value">http://es.wikiquote.org/wiki/Fight_Club</span>"<span class="token punctuation">&gt;</span>
+          <br>
+          <div class="space">
+            <span class="token punctuation">&lt;</span>p<span class="token punctuation">&gt;</span><span class="token punctuation"><span class="token text">La primera regla del Club de la Lucha es: Nadie habla sobre el Club de la Lucha.</span></span><span class="token punctuation">&lt;</span>/p<span class="token punctuation">&gt;</span>
+            <br>
+            <span class="token punctuation">&lt;</span>footer<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">
+              <</span>cite <span class="token attr-name">class</span>="<span class="token attr-value">author</span>"<span class="token punctuation">&gt;</span><span class="token text">Tyler Durden</span><span class="token punctuation">&lt;</span>/cite<span class="token punctuation">&gt;</span>
+              <span class="token text">en</span>
+              <br>
+              <span class="token punctuation">
+              <</span>cite <span class="token attr-name">class</span>="<span class="token attr-value">title</span>"<span class="token punctuation">&gt;</span><span class="token text">El Club de la Lucha</span><span class="token punctuation">&lt;</span>/cite<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">&lt;</span>/footer<span class="token punctuation">&gt;</span>
+          </div>
+          <span class="token punctuation">
+          <</span>/blockquote<span class="token punctuation">&gt;</span> 
+          </span>
+        </div>
+      </code>
+      <p>
+        Obsérvese que utilizamos el atributo opcional <strong>cite</strong> para indicar una referencia externa
+        de la
+        fuente de la cita. Luego,
+        en su interior, tenemos un párrafo que contiene la frase en cuestión, seguida de una sección semántica (
+        <em>pie
+          de
+          cita</em> ) que
+        a su vez contiene referencias al autor de la cita y el título de la película.
+      </p>
+    </section>
+    <section class="main-section" id="Listas">
+      <header>Listas</header>
+      <p>En HTML podemos crear listas de información de una forma muy sencilla. Empecemos por las etiquetas
+        disponibles:
+      </p>
+      <table>
+        <caption>Listas</caption>
+        <thead>
+          <tr>
+            <th>
+              Etiqueta
+            </th>
+            <th>
+              Atributos
+            </th>
+            <th>
+              Descripcion
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>&lt;</code><code>ul></code>
+            </td>
+            <td></td>
+            <td>
+              Define una lista sin orden. Se trata de la etiqueta contenedora.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>ol></code>
+            </td>
+            <td>
+              <code>start</code>,
+              <code>reserved</code>,
+              <code>type</code>
+            </td>
+            <td>
+              Define una lista numerada (con orden). Etiqueta contenedora.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>li></code>
+            </td>
+            <td>
+              <code>value</code>
+            </td>
+            <td>
+              Define un ítem de la lista.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        En primer lugar debemos elegir la etiqueta <code>&lt;</code><code>ul></code> o la etiqueta
+        <code>&lt;</code><code>ol></code> dependiendo de si
+        queremos una lista donde no importa el orden ( <em>lista de objetos que tengo en el bolsillo</em> ) o
+        una lista en
+        la que
+        si importa el orden ( <em>lista de
+          canciones preferidas de mayor a menor</em> ). Una vez elegido, comenzamos a añadir ítems, uno por
+        etiqueta
+        <code>&lt;</code><code>li></code>. La forma más
+        básica de crear una lista sería la siguiente:
+      </p>
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">&lt;</span>ul<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">&lt;</span>li<span class="token punctuation">&gt;</span><span class="token punctuation"><span class="token text">Primer ítem.</span></span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>li<span class="token punctuation">&gt;</span><span class="token text">Segundo ítem.</span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>li<span class="token punctuation">&gt;</span><span class="token text">Tercer ítem.</span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">
+          <</span>/ul<span class="token punctuation">&gt;</span>
+          </span>
+        </div>
+      </code>
+      <p>
+        Esto crearía una lista, donde cada uno de los ítems aparecería con un circulo <strong>negro</strong>
+        cada uno.
+        Una particularidad poco conocida es que HTML nos permite omitir las etiquetas de cierre
+        <code>&lt;</code><code>/li></code> si van seguidas de otra etiqueta de apertura
+        <code>&lt;</code><code>li></code>.
+      </p>
+      <p>
+        Si reemplazamos la etiqueta <code>&lt;</code><code>ul></code> por <code>&lt;</code><code>ol></code> los ítems
+        pasan a
+        ser ítems numerados ( <em>por defecto, números enteros a partir
+          de 1</em> ). Las etiquetas <code>&lt;</code><code>ol></code> permiten indicar varios atributos
+        opcionales para
+        modificar la forma en que se numera cada ítem:
+      </p>
+      <table>
+        <caption>Atributos de Listas</caption>
+        <thead>
+          <tr>
+            <th>
+              Etiqueta
+            </th>
+            <th>
+              Atributos
+            </th>
+            <th>
+              Descripcion
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>start</code>
+            </td>
+            <td>
+              [ <em><u>número</u></em> ]
+            </td>
+            <td>
+              Indica el número del primer ítem de la lista y del que empezará a contar.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>reversed</code>
+            </td>
+            <td>-</td>
+            <td>
+              Si se indica este atributo, la lista se numera en orden inverso.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>type</code>
+            </td>
+            <td>
+              <strong>1</strong>
+              |
+              <code>a</code>
+              |
+              <code>A</code>
+              |
+              <code>i</code>
+              |
+              <code>I</code>
+            </td>
+            <td>
+              Lista con números enteros, letras o números romanos (en minúsculas o mayúsculas).
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        El siguiente ejemplo muestra una lista numerada con letras minúsculas, que empiezan en
+        <strong>c</strong>, pero
+        irán en orden
+        inverso, por lo que terminarán en <strong>c</strong>:
+      </p>
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">
+              <</span>ol <span class="token attr-name">start</span>="<span class="token attr-value">c</span>"<span class="token attr-name"> type</span>="<span class="token attr-value">a</span>" <span class="token attr-name">reversed</span><span class="token punctuation">&gt;</span>
+              <br>
+            <div class="space">
+              <span class="token punctuation">&lt;</span>li <span class="token attr-name">value</span>="<span class="token attr-value">1</span>"<span class="token punctuation">&gt;</span><span class="token punctuation"><span class="token text">Primer ítem.</span></span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>li <span class="token attr-name">value</span>="<span class="token attr-value">2</span>"<span class="token punctuation">&gt;</span><span class="token text">Segundo ítem.</span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>li <span class="token attr-name">value</span>="<span class="token attr-value">3</span>"<span class="token punctuation">&gt;</span><span class="token text">Tercer ítem.</span><span class="token punctuation">&lt;</span>/li<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">
+            <</span>/ol<span class="token punctuation">&gt;</span>
+          </span>
+        </div>
+      </code>
+      <p>
+        Obsérvese que también se puede establecer el atributo <strong> value</strong> a cada ítem de la lista
+        para
+        asignarle, por ejemplo, un valor numérico o ponderarlos.
+      </p>
+    </section>
+    <section class="main-section" id="Listas_de_descripciones">
+      <header>Listas de descripciones</header>
+      <p>
+        De la misma forma que podemos crear listas genéricas, podemos crear listas de descripciones. La
+        diferencia es
+        que este
+        tipo de listas se suele utilizar cuando queremos asociar pares de nombre-valor. Primero veamos las
+        etiquetas:
+      </p>
+      <table>
+        <caption>Listas de descripciones</caption>
+        <thead>
+          <tr>
+            <th>
+              Etiqueta
+            </th>
+            <th>
+              Descripcion
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>&lt;</code><code>dl></code>
+            </td>
+            <td>
+              Define una lista de descripciones. Es la etiqueta contenedora.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>dt></code>
+            </td>
+            <td>
+              Término de la descripción. Contiene el nombre o término a describir.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>dd></code>
+            </td>
+            <td>
+              Descripción o valor asociado al término. Pueden existir varios por término.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Veamos un ejemplo práctico de este tipo de listas:
+      </p>
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">&lt;</span>dl<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">&lt;</span>dt<span class="token punctuation">&gt;</span><span class="token punctuation"><span class="token text">Gallina</span></span><span class="token punctuation">&lt;</span>/dt<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>dd<span class="token punctuation">&gt;</span><span class="token text">Ave doméstica del orden de las galliformes.</span><span class="token punctuation">&lt;</span>/dd<span class="token punctuation">&gt;</span>
+              <br>
+              <span class="token punctuation">&lt;</span>dd<span class="token punctuation">&gt;</span><span class="token text">Cobarde, pusilánime.</span><span class="token punctuation">&lt;</span>/dd<span class="token punctuation">&gt;</span>
+            </div>
+            <span class="token punctuation">
+              <</span>/dl<span class="token punctuation">&gt;</span>
+            </span>
+          </div>
+        </code>
+    </section>
+    <section class="main-section" id="Ilustraciones">
+      <header>Ilustraciones</header>
+      <p>
+        Por último, dentro del apartado de etiquetas de agrupación tenemos las nuevas etiquetas
+        <code>&lt;</code><code>figure></code> y <code>&lt;</code><code>figcaption></code>. Estas etiquetas se utilizan
+        para
+        agrupar conceptos formados por una ilustración ( <em>figura</em> ) y una leyenda. Con estos elementos de
+        agrupación se puede agrupar una imagen y su correspondiente pie de foto, pudiendo ampliar a otro
+        tipo de contenidos multimedia como video o audio.
+      </p>
+      <table>
+        <caption>Ilustraciones (figuras)</caption>
+        <thead>
+          <tr>
+            <th>
+              Etiqueta
+            </th>
+            <th>
+              Descripcion
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <code>&lt;</code><code>figure></code>
+            </td>
+            <td>
+              Establece una figura, que puede contener una serie de elementos diversos.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <code>&lt;</code><code>figcaption></code>
+            </td>
+            <td>
+              Asocia una leyenda, generalmente texto, a la figura anterior. Opcional.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Veamos un ejemplo:
+      </p>
+      <code class="language-html">
+        <div class="code-text-container">
+          <span class="token tag">
+            <span class="token punctuation">&lt;</span>figure<span class="token punctuation">&gt;</span>
+            <br>
+            <div class="space">
+              <span class="token punctuation">
+                <</span>img <span class="token attr-name">src</span>="<span class="token attr-value">http://lenguajehtml.com/img/html5-logo.png"</span>"<span
+                class="token attr-name"> alt</span>="<span class="token attr-value">Logotipo de HTML5</span>"<span class="token punctuation">&gt;</span>
+                <br>
+                <span class="token punctuation">&lt;</span>figcaption<span class="token punctuation">&gt;</span><span class="token text">Logotipo oficial del lenguaje de marcas HTML5.</span><span class="token punctuation">&lt;</span>/figcaption<span class="token punctuation">&gt;</span>
+              </div>
+              <span class="token punctuation">
+                <</span>/figure<span class="token punctuation">&gt;</span>
+          </span>
+        </div>
+      </code>
+      <p>
+        Nótese que en la ilustración o figura, se puede contener todo tipo de elementos, no solo imágenes.
+        Ejemplos
+        válidos podrían ser videos, párrafos de texto o incluso contenido multimedia.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <section>
+      <a href="#navbar">Ir al comienzo</a>
+      <a href="mailto:abrahamgalue512@gmail.com">Contactame aquí</a>
+    </section>
+
+    <p>&copy; Julian Carax 2022</p>
+  </footer>
+</body>

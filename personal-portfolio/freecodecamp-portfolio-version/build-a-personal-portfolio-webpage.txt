@@ -1,0 +1,761 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- START NAV -->
+  <div id="top" class="top"></div>
+  <header>
+    <a href="#" class="logo">
+      <img src="https://i.postimg.cc/855q2t7R/profile-photo.png" alt="Profile photo" width="60" title="Julian">
+      <h2 class="profile-name">Julian Carax</h2>
+    </a>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- END NAV -->
+
+  <!-- START WELCOME SECTION -->
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hello, I am Julian Carax.</h1>
+    <p>a web developer lover</p>
+  </section>
+  <!-- END WELCOME SECTION -->
+
+  <!-- START PROJECTS SECTION -->
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Some Projects</h2>
+    <div class="projects-grid">
+      <a href="external-links/tribute-page-michael-jackson/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/QNRdqWz4/tribute-page-michael-jackson.png" alt="Tribute page of Michael Jackson">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Tribute page Michael Jackson
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+      <a href="external-links/technical-documentation/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/rmPvMx4v/technical-documentation.png" alt="Technical Documentation">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Technical Documentation
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+      <a href="external-links/dayan-page/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/gjL1Jjqr/html-deivchoi.png" alt="Dayan page">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Dayan Page
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+      <a href="external-links/blog-de-chanchito-feliz/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/FKGMC2HF/blog-de-chanchito-feliz.png" alt="Blog de Chanchito feliz">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Blog de Chanchito feliz
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+      <a href="external-links/product-landing-page/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/WtRCJVX8/product-landing-page.png" alt="Product Landing Page">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Product Landing Page
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+      <a href="external-links/card-pokemon/index.html" class="project project-tile">
+        <img class="project-image" src="https://i.postimg.cc/DfWzscx4/card-pokemon.png" alt="Card Pokemon">
+        <p class="projec-title">
+          <span class="code">&lt;</span>
+          Card Pokemon
+          <span class="code">/&gt;</span>
+        </p>
+      </a>
+    </div>
+  </section>
+  <!-- END PROJECTS SECTION -->
+
+  <!-- START CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Contact Me</h2>
+      <p>If you like my projects contact me here</p>
+    </div>
+    <div class="contact-links">
+      <a href="#" target="_blank" class="btn contact-details">
+        <i class="fa-brands fa-linkedin-in"></i>
+        Linkedin
+      </a>
+      <a id="profile-link" href="https://github.com/abrahamgalue" target="_blank" class="btn contact-details">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+      <a href="https://twitter.com/AbrahamGaluee" target="_blank" class="btn contact-details">
+        <i class="fa-brands fa-twitter"></i>
+        Twitter
+      </a>
+      <a href="mailto:juliancaraxpc@gmail.com" target="_blank" class="btn contact-details">
+        <i class="fa-solid fa-at"></i>
+        Email
+      </a>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+  <footer class="footer">
+    <!-- copyright text -->
+    <span class="copyright">© 2023 Julian Carax</span>
+    <!-- go to top button -->
+    <a href="#" class="return-to-top">
+      <i class="fa-solid fa-angle-up"></i>
+      Back to Top
+    </a>
+  </footer>
+  <!-- END FOOTER SECTION -->
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+  --header-primary-color: #84adea;
+  --header-secondary-color: #cbdcf7;
+  --header-tertiary-color: #ecf0f4;
+  --first-gradient-color: #12436e;
+  --second-gradient-color: #1e73be;
+  --primary-heading-color: #2f548a;
+  --contact-details-color: #203656;
+  --contact-section-box: #207aca;
+  --contact-details-color-hover1: #0a66c2;
+  --contact-details-color-hover2: #111111;
+  --contact-details-color-hover3: #1c9bf0;
+  --contact-details-color-hover4: #4e9268;
+}
+
+/* box-sizing and font sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: 'Montserrat', sans-serif;
+
+  /* Set font size for easy rem calculations
+		* default document font size = 16px, 1rem = 16px, 100% = 16px
+		* (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+	*/
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+/* 1200px / 10px = 120em */
+
+@media (max-width: 120rem) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 10px = 98em */
+
+@media (max-width: 98rem) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 10px = 46em */
+
+@media (max-width: 46rem) {
+  html {
+    font-size: 55%;
+  }
+}
+
+
+body {
+  margin: 0 auto;
+  max-width: Min(100%, 1140px);
+}
+
+
+p {
+  font-size: 1.8rem;
+}
+
+/* Header Section */
+
+header {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  left: 0;
+  justify-content: space-between;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.profile-name {
+  color: #000;
+}
+
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo img {
+  border-radius: 50%;
+  margin: 0 1.2rem 0 1.5rem;
+}
+
+
+.logo h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+
+header nav ul {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  gap: 11px;
+  margin: 0 calc(1.5rem - 0.55rem) 0 0;
+  list-style: none;
+  justify-content: space-between;
+}
+
+
+header nav ul li {
+  background: var(--first-gradient-color);
+  background: -webkit-linear-gradient(bottom,
+      var(--first-gradient-color) 0%,
+      var(--second-gradient-color) 51%,
+      var(--first-gradient-color) 100%);
+  /* background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 51%, var(--first-gradient-color) 100%); */
+  background-size: auto 200%;
+  border-radius: 2.5rem;
+  transition: all 0.4s ease;
+}
+
+
+header nav ul li:hover {
+  animation: up 0.14s linear;
+  background: linear-gradient(to top,
+      var(--first-gradient-color) 0%,
+      var(--second-gradient-color) 100%,
+      var(--first-gradient-color) 100%);
+}
+
+/* Animation of buttons in header */
+
+@keyframes up {
+  0% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 0%, var(--first-gradient-color) 100%);
+  }
+
+
+  5% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 5%, var(--first-gradient-color) 100%);
+  }
+
+
+  10% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 10%, var(--first-gradient-color) 100%);
+  }
+
+
+  15% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 15%, var(--first-gradient-color) 100%);
+  }
+
+
+  20% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 20%, var(--first-gradient-color) 100%);
+  }
+
+
+  25% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 25%, var(--first-gradient-color) 100%);
+  }
+
+
+  30% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 30%, var(--first-gradient-color) 100%);
+  }
+
+
+  35% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 35%, var(--first-gradient-color) 100%);
+  }
+
+
+  40% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 40%, var(--first-gradient-color) 100%);
+  }
+
+
+  45% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 45%, var(--first-gradient-color) 100%);
+  }
+
+
+  50% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 50%, var(--first-gradient-color) 100%);
+  }
+
+
+  55% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 55%, var(--first-gradient-color) 100%);
+  }
+
+
+  60% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 60%, var(--first-gradient-color) 100%);
+  }
+
+
+  65% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 65%, var(--first-gradient-color) 100%);
+  }
+
+
+  70% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 70%, var(--first-gradient-color) 100%);
+  }
+
+
+  75% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 75%, var(--first-gradient-color) 100%);
+  }
+
+
+  80% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 80%, var(--first-gradient-color) 100%);
+  }
+
+
+  85% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 85%, var(--first-gradient-color) 100%);
+  }
+
+
+  90% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 90%, var(--first-gradient-color) 100%);
+  }
+
+
+  95% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 95%, var(--first-gradient-color) 100%);
+  }
+
+
+  100% {
+    background: linear-gradient(to top, var(--first-gradient-color) 0%, var(--second-gradient-color) 100%, var(--first-gradient-color) 100%);
+  }
+}
+
+
+header nav ul li a {
+  display: block;
+  padding: 1rem 1rem;
+}
+
+/* Welcome Section */
+
+.welcome-section {
+  background: linear-gradient(0deg,
+      var(--header-primary-color) 40%,
+      var(--header-secondary-color) 90%,
+      var(--header-tertiary-color) 100%);
+  border-radius: 2.4rem;
+  color: var(--primary-heading-color);
+  display: grid;
+  height: 100vh;
+  margin: 0 auto;
+  place-content: center;
+  text-align: center;
+}
+
+
+.welcome-section h1 {
+  font-size: 4.6rem;
+  margin: 0;
+}
+
+/* Projects Section */
+
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+}
+
+
+.projects-section-header {
+  border-bottom: 0.2rem solid;
+  color: var(--primary-heading-color);
+  font-size: 4rem;
+  margin: 0 auto 6rem auto;
+  max-width: 64rem;
+  padding: 0 0 1.2rem 0;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 128rem;
+  margin: 0 auto;
+}
+
+
+.project {
+  color: #fff;
+  background: linear-gradient(270deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 100%, var(--first-gradient-color) 100%);
+  border-radius: 2.4rem;
+  text-decoration: none;
+  padding: 1rem;
+  transition: all 0.4s ease;
+}
+
+
+.project:hover {
+  animation: mordecai 0.14s linear;
+  background: linear-gradient(to right, var(--first-gradient-color) 0%, var(--second-gradient-color) 100%, var(--first-gradient-color) 100%);
+  color: #fff;
+}
+
+/* Aimation to project card */
+
+@keyframes mordecai {
+  0% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 0%, var(--first-gradient-color) 100%);
+  }
+
+
+  5% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 5%, var(--first-gradient-color) 100%);
+  }
+
+
+  10% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 10%, var(--first-gradient-color) 100%);
+  }
+
+
+  15% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 15%, var(--first-gradient-color) 100%);
+  }
+
+
+  20% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 20%, var(--first-gradient-color) 100%);
+  }
+
+
+  25% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 25%, var(--first-gradient-color) 100%);
+  }
+
+
+  30% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 30%, var(--first-gradient-color) 100%);
+  }
+
+
+  35% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 35%, var(--first-gradient-color) 100%);
+  }
+
+
+  40% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 40%, var(--first-gradient-color) 100%);
+  }
+
+
+  45% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 45%, var(--first-gradient-color) 100%);
+  }
+
+
+  50% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 50%, var(--first-gradient-color) 100%);
+  }
+
+
+  55% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 55%, var(--first-gradient-color) 100%);
+  }
+
+
+  60% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 60%, var(--first-gradient-color) 100%);
+  }
+
+
+  65% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 65%, var(--first-gradient-color) 100%);
+  }
+
+
+  70% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 70%, var(--first-gradient-color) 100%);
+  }
+
+
+  75% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 75%, var(--first-gradient-color) 100%);
+  }
+
+
+  80% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 80%, var(--first-gradient-color) 100%);
+  }
+
+
+  85% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 85%, var(--first-gradient-color) 100%);
+  }
+
+
+  90% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 90%, var(--first-gradient-color) 100%);
+  }
+
+
+  95% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 95%, var(--first-gradient-color) 100%);
+  }
+
+
+  100% {
+    background: linear-gradient(90deg, var(--first-gradient-color) 0%, var(--second-gradient-color) 100%, var(--first-gradient-color) 100%);
+  }
+}
+
+
+.code {
+  color: transparent;
+  font-weight: bold;
+  transition: color 0.4s ease-out;
+}
+
+
+.project:hover .code {
+  color: rgb(218, 20, 76);
+}
+
+
+.project-image {
+  height: calc(100% - 6.8rem);
+  width: 100%;
+  border-radius: 2.4rem;
+  object-fit: cover;
+}
+
+
+.project-title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+}
+
+/* Contact Section */
+
+.contact-section {
+  border: 0.1rem inset var(--contact-section-box);
+  border-radius: 2.4rem;
+  display: grid;
+  height: 80vh;
+  margin: 0 auto;
+  place-content: center;
+  text-align: center;
+}
+
+
+.contact-section-header {
+  padding: 0;
+}
+
+
+.contact-section-header * {
+  margin: 0;
+}
+
+
+.contact-section-header>h2 {
+  font-size: 6rem;
+}
+
+
+.contact-section-header>p {
+  font-style: italic;
+}
+
+
+.contact-links {
+  display: flex;
+  font: bold 2.4rem 'Montserrat', sans-serif;
+  flex-wrap: wrap;
+  margin: 4rem 0 0 0;
+  justify-content: center;
+}
+
+
+.contact-details {
+  color: #262626;
+  font-size: 2.4rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+
+
+.contact-details:nth-child(1):hover {
+  color: var(--contact-details-color-hover1);
+  transform: translateY(0.8rem);
+}
+
+
+.contact-details:nth-child(2):hover {
+  color: var(--contact-details-color-hover2);
+  transform: translateY(0.8rem);
+}
+
+
+.contact-details:nth-child(3):hover {
+  color: var(--contact-details-color-hover3);
+  transform: translateY(0.8rem);
+}
+
+
+.contact-details:nth-child(4):hover {
+  color: var(--contact-details-color-hover4);
+  transform: translateY(0.8rem);
+}
+
+/* Footer Section */
+
+.footer {
+  align-items: center;
+  border-top: solid 1px #EBEBEB;
+  display: flex;
+  font: 1.8rem 'Montserrat', sans-serif;
+  justify-content: space-between;
+  height: 15vh;
+  margin-top: 5vh;
+}
+
+
+.copyrigth,
+.return-to-top {
+  color: #8F9BAD;
+}
+
+
+.return-to-top {
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 0.6rem 1.3rem;
+  border: solid 1px #EBEBEB;
+  color: #8F9BAD;
+  text-decoration: none;
+  border-radius: 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.return-to-top:hover {
+  color: var(--second-gradient-color);
+  border-color: var(--second-gradient-color);
+}
+
+/* Media Query */
+
+@media (max-width: 540px) {
+  header {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav {
+    padding: 0.8rem;
+  }
+}
+
+
+@media (max-width: 425px) {
+  header {
+    display: none;
+  }
+
+  .welcome-section,
+  .contact-section,
+  footer {
+    /* width: 80vw; */
+    height: 90vh;
+    margin: 2rem;
+    display: grid;
+    place-content: center;
+  }
+
+  .projects-section {
+    padding: 0;
+  }
+}
+
+** end of undefined **
+

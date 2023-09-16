@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'OnePlus-Sans-Display';
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+button {
+    font-size: 1.3em;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px transparent;
+    color: white;
+    background-color: rgb(194, 20, 69);
+}
+
+button:hover {
+    background-color: rgb(174, 0, 49);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acent {
+    color: rgb(194, 20, 69);
+    letter-spacing: 0.12em;
+}
+
+;
+
+header {
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(194, 20, 69);
+    font-size: 2.3em;
+    letter-spacing: 0.42em;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: rgb(194, 20, 69);
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1 {
+    color: white;
+}
+
+#hero button {
+    font-size: 1.75em;
+}
+
+#somos-dayan .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#our-clothes {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#our-clothes .container {
+    padding: 150px 0px;
+}
+
+#our-clothes h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+
+#our-clothes p {
+    display: none;
+}
+
+#our-clothes .cart {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cart:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("media/diseño-de-danzas.jpg");
+}
+
+.cart:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("media/ropa-general.jpg");
+}
+
+.cart:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("media/hecho-a-medida.jpg");
+}
+
+#props .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#props li {
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: 80vh;
+}
+
+#contact h2 {
+    font-size: 9vw;
+}
+
+#contact button {
+    font-size: 5vw;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+}
+
+footer p {
+    margin: 0px;
+    padding: 12px;
+    color: rgb(100, 100, 100)
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 720px) {
+    header {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1 {
+        font-size: 5em;
+    }
+
+    #somos-dayan .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-dayan .text {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #somos-dayan h2 {
+        margin-top: 0px;
+    }
+
+    #somos-dayan .img-container {
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url("media/somos-dayan.jpg");
+        background-size: cover;
+        background-position: right right;
+        /* background-repeat: no-repeat; */
+        height: 500px;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    #our-clothes {
+        background-color: rgb(15, 15, 15);
+        color: white;
+        text-align: center;
+    }
+
+    #our-clothes .lines {
+        display: flex;
+        justify-content: center;
+    }
+
+    #our-clothes p {
+        display: block;
+        margin-bottom: 30px;
+        padding-top: 3vw;
+    }
+
+    #our-clothes h2 {
+        font-size: 4em;
+    }
+
+    #our-clothes h3 {
+        margin-top: 0;
+    }
+
+    #our-clothes .cart {
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(39, 39, 39);
+        box-shadow: 0px 1px 1px rgba(39, 39, 39, 0.5);
+    }
+
+    #props {
+        background-repeat: no-repeat;
+    }
+
+    #props .container {
+        text-align: initial;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #props .ul {
+        width: 50%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #props .img-container {
+        background-image: url("media/background-props.jpg");
+        background-size: cover;
+        background-position: right right;
+        height: 500px;
+        width: 400px;
+        border-radius: 20px;
+    }
+
+    #contact h2 {
+        font-size: 5em;
+    }
+
+    #contact button {
+        font-size: 2em;
+    }
+
+    footer .container {
+        justify-content: flex-end;
+    }
+
+}
