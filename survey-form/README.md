@@ -4,6 +4,14 @@
 
 </div>
 
+Este proyecto está diseñado para practicar la creación de **formularios** con **HTML** y **CSS**. Con el objetivo de poner en práctica el uso de los elementos para la creación de formularios.
+
+🧩 Aquí puedes ver su [**Live Demo.**](https://survey-form-abraham.netlify.app/)
+
+<br>
+
+## Especifícaciones:
+
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
 **User Stories:**

@@ -4,6 +4,14 @@
 
 </div>
 
+Este proyecto está diseñado para practicar con los **Pseudo Selectores** de **CSS**. Además del diseño **responsive** de páginas web.
+
+🧩 Aquí puedes ver su [**Live Demo.**](https://technical-documentation-abraham.netlify.app/)
+
+<br>
+
+## Especifícaciones:
+
 **Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
 
 **User Stories:**

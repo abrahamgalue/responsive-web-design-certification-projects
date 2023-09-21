@@ -4,6 +4,14 @@
 
 </div>
 
+Este proyecto está diseñado para practicar variables en **CSS**, **Pseudo Elementos**, **Pseudo Selectores**, **clases** y los [**Media Queries**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+
+🧩 Aquí puedes ver su [**Live Demo.**](https://product-landing-page-abraham.netlify.app/)
+
+<br>
+
+## Especifícaciones:
+
 **Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
 
 **User Stories:**

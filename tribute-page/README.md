@@ -4,7 +4,13 @@
 
 </div>
 
+Este proyecto está diseñado para practicar el [**Box Model**](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) de **CSS**. Además de la **tipografías**, **flexbox** y **accesibilidad**.
 
+🧩 Aquí puedes ver su [**Live Demo.**](https://tribute-page-abraham.netlify.app/)
+
+<br>
+
+## Especifícaciones:
 
 **Objective**: Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 

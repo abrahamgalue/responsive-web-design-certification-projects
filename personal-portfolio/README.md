@@ -4,6 +4,14 @@
 
 </div>
 
+Este es el proyecto **final** del certificado de **freeCodeCamp**. Consiste en construir tu propio **Portfolio Web**.
+
+🧩 Aquí puedes ver su [**Live Demo.**](https://personal-portfolio-abraham.netlify.app/)
+
+<br>
+
+## Especifícaciones:
+
 **Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
 
 **User Stories:**
