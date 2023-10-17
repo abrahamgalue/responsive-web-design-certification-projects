@@ -4,9 +4,17 @@
 
 </div>
 
+### Certificado de freeCodeCamp
+
+> 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/AbrahamGalue/responsive-web-design).
+
+![vista-previa](./public/preview/01-certifies-preview.png)
+
+## 🚀 Descripción
+
 Este es mi repositorio de proyectos con los cuales conseguí la **certificación de freeCodeCamp** en su nuevo curso de Diseño Web Responsive. Espero que te pueda ayudar.
 
-🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/AbrahamGalue/responsive-web-design).
+## 🎭 Proyectos
 
 Los **proyectos principales** para obtener el certificado y que se incluyen son:
 
