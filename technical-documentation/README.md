@@ -4,13 +4,19 @@
 
 </div>
 
-Este proyecto está diseñado para practicar con los **Pseudo Selectores** de **CSS**. Además del diseño **responsive** de páginas web.
+### Página con documentación técnica
 
-🧩 Aquí puedes ver su [**Live Demo.**](https://technical-documentation-abraham.netlify.app/)
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://technical-documentation-abraham.netlify.app/)
+
+![vista-previa](./media/preview/01-page-preview.png)
+
+## 🚀 Descripción
+
+Este proyecto está diseñado para practicar con los **Pseudo Selectores** de **CSS**. Además del diseño **responsive** de páginas web.
 
 <br>
 
-## Especifícaciones:
+## 🧞‍♂️ Especifícaciones:
 
 **Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
 
@@ -34,4 +40,4 @@ Este proyecto está diseñado para practicar con los **Pseudo Selectores** de **
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-**Note:** Be sure to add ```<link rel="stylesheet" href="styles.css">``` in your HTML to link your stylesheet and apply your CSS
+**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS

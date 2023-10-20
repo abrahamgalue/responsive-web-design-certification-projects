@@ -4,13 +4,19 @@
 
 </div>
 
-Este proyecto está diseñado para practicar variables en **CSS**, **Pseudo Elementos**, **Pseudo Selectores**, **clases** y los [**Media Queries**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+### Página de un producto comercial
 
-🧩 Aquí puedes ver su [**Live Demo.**](https://product-landing-page-abraham.netlify.app/)
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://product-landing-page-abraham.netlify.app/)
+
+![vista-previa](./media/public/preview/01-page-preview.png)
+
+## 🚀 Descripción
+
+Este proyecto está diseñado para practicar variables en **CSS**, **Pseudo Elementos**, **Pseudo Selectores**, **clases** y los [**Media Queries**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
 <br>
 
-## Especifícaciones:
+## 🧞‍♂️ Especifícaciones:
 
 **Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
 
@@ -34,4 +40,4 @@ Este proyecto está diseñado para practicar variables en **CSS**, **Pseudo Elem
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-**Note:** Be sure to add ```<link rel="stylesheet" href="styles.css">``` in your HTML to link your stylesheet and apply your CSS
+**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS

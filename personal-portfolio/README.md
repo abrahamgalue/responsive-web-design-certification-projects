@@ -4,13 +4,19 @@
 
 </div>
 
-Este es el proyecto **final** del certificado de **freeCodeCamp**. Consiste en construir tu propio **Portfolio Web**.
+### Página web de Portafolio
 
-🧩 Aquí puedes ver su [**Live Demo.**](https://personal-portfolio-abraham.netlify.app/)
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://personal-portfolio-abraham.netlify.app/)
+
+![vista-previa](./media/public/preview/01-page-preview.png)
+
+## 🚀 Descripción
+
+Este es el proyecto **final** del certificado de **freeCodeCamp**. Consiste en construir tu propio **Portfolio Web**.
 
 <br>
 
-## Especifícaciones:
+## 🧞‍♂️ Especifícaciones:
 
 **Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
 
@@ -30,4 +36,4 @@ Este es el proyecto **final** del certificado de **freeCodeCamp**. Consiste en c
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-**Note:** Be sure to add ```<link rel="stylesheet" href="styles.css">``` in your HTML to link your stylesheet and apply your CSS
+**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS

@@ -4,13 +4,19 @@
 
 </div>
 
-Este proyecto está diseñado para practicar la creación de **formularios** con **HTML** y **CSS**. Con el objetivo de poner en práctica el uso de los elementos para la creación de formularios.
+### Formulario de encuesta
 
-🧩 Aquí puedes ver su [**Live Demo.**](https://survey-form-abraham.netlify.app/)
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://survey-form-abraham.netlify.app/)
+
+![vista-previa](./media/preview/01-page-preview.png)
+
+## 🚀 Descripción
+
+Este proyecto está diseñado para practicar la creación de **formularios** con **HTML** y **CSS**. Con el objetivo de poner en práctica el uso de los elementos para la creación de formularios.
 
 <br>
 
-## Especifícaciones:
+## 🧞‍♂️ Especifícaciones:
 
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
@@ -35,4 +41,4 @@ Este proyecto está diseñado para practicar la creación de **formularios** con
 
 Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-**Note:** Be sure to add ```<link rel="stylesheet" href="styles.css">``` in your HTML to link your stylesheet and apply your CSS
+**Note:** Be sure to add `<link rel="stylesheet" href="styles.css">` in your HTML to link your stylesheet and apply your CSS
