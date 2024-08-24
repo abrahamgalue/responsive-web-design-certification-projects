@@ -8,7 +8,7 @@
 
 > 🧩 Aquí puedes ver su [**Live Demo.**](https://product-landing-page-abraham.netlify.app/)
 
-![vista-previa](./media/public/preview/01-page-preview.png)
+![vista-previa](media/public/preview/01-page-preview.png)
 
 ## 🚀 Descripción
 
