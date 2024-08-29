@@ -8,7 +8,7 @@
 
 > 🧩 Aquí puedes ver su [**Live Demo.**](https://tribute-page-abraham.netlify.app/)
 
-![vista-previa](./media/preview/01-page-preview.png)
+![vista-previa](media/preview/01-page-preview.png)
 
 ## 🚀 Descripción
 
