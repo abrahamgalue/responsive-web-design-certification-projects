@@ -1,0 +1,22 @@
+{
+  "name": "certification-projects",
+  "version": "1.0.0",
+  "description": "<div align='center'>",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrahamgalue/responsive-web-design-certification-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrahamgalue/responsive-web-design-certification-projects/issues"
+  },
+  "homepage": "https://github.com/abrahamgalue/responsive-web-design-certification-projects#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
+}
