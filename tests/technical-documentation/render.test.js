@@ -12,11 +12,11 @@ test('has title', async ({ page }) => {
 test('has header', async ({ page }) => {
   await page.goto(URL)
 
-  await expect(page.locator('#Introduccion').getByText('Introduccion')).toBeVisible()
+  await expect(page.locator('header').filter({ hasText: 'Introduccion' })).toBeVisible()
 })
 
 test('has navigation links', async ({ page }) => {
   await page.goto(URL)
 
-  await expect(page.getByText('Enlaces o Hipervinculos')).toBeVisible()
+  await expect(page.locator('header').filter({ hasText: 'Enlaces o Hipervinculos' })).toBeVisible()
 })
