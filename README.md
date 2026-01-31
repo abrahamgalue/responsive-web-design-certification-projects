@@ -6,7 +6,7 @@
 
 ### Certificado de freeCodeCamp
 
-> 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/AbrahamGalue/responsive-web-design).
+> 🗝 Puedes verificar aquí la veracidad de mi [**certificado**](https://www.freecodecamp.org/certification/abrahamgalue/responsive-web-design).
 
 ![vista-previa](public/preview/01-certifies-preview.jpg)
 
